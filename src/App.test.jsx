@@ -20,9 +20,9 @@ import SubComponent from './SubComponent';
 
 /* Demo Two */
 // test('should contain a `SubComponent`', () => {
-//   const wrapper = mount(<App />);
+//   const wrapper = shallow(<App />);
 //   expect(wrapper.find(SubComponent).length).toBe(1);
-//   // expect(wrapper.text()).toBe('Some sub component');
+//   expect(wrapper.text()).toBe('Some sub component');
 // });
 
 /* Demo Three - Simulating events */
@@ -96,10 +96,10 @@ import SubComponent from './SubComponent';
 // });
 
 /* Demo Six - Jest Snapshot Rendering */
-test('SubComponent renders correctly', () => {
-  const tree = create(<SubComponent />);
-  expect(tree).toMatchSnapshot();
-});
+// test('SubComponent renders correctly', () => {
+//   const tree = create(<SubComponent />);
+//   expect(tree).toMatchSnapshot();
+// });
 
 // // super contrived example
 // test('SubComponent captures class from props', () => {
