@@ -16,3 +16,5 @@ The packages required are:
 - react-dom
 - react-addons-test-utils
 - react-test-renderer
+
+You can see the presentation associated with this demo (which is mostly just about how I got to this place) on [speakerdeck](https://speakerdeck.com/deecewan/how-i-test-react)
